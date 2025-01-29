@@ -7,25 +7,23 @@ body {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    gap: 10px;
+    gap: 40px;
 }
 
 .cabecalho {
-    margin-left: 40px;
-    margin-right: 40px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .cabecalho .titulo {
     color: #f3e2c8;
-    align-self: flex-start;
+    justify-content: center;
+    position: fixed;
 }
 
-.cabecalho .meu-nome {
+.cabecalho .link-github {
+    margin-left: 85vw;
     color: #f3e2c8;
-    align-self: flex-end;
-    position: absolute;
 }
 
 .carta {
