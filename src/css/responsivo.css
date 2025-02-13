@@ -1,5 +1,49 @@
 @media(max-width: 768px) {
+    body {
+        background-position: center;
+        padding: 0 20px;
+    }
+
+    .slider {
+        gap: 10px;
+    }
+}
+
+@media(max-width: 496px) {
+    .lista-personagens {
+        width: 250px;
+    }
+
+    .img-carta {
+        width: 100px;
+    }
+
+    .slider {
+        position: relative;
+    }
+
+    .btn-seta {
+        position: absolute;
+        bottom: -16%;
+    }
+
+    #btn-avancar {
+        right: 24%;
+    }
+
+    #btn-voltar {
+        left: 24%;
+    }
+}
+
+@media(max-width: 375px) {
+    body {
+        justify-content: start;
+        padding-top: 10%;
+        gap: 10px;
+    }
+
     .cabecalho {
-        
+        font-size: 12px;
     }
 }
