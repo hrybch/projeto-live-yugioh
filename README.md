@@ -1,6 +1,6 @@
 # Projeto Yu-Gi-Oh!
 
-![alt text](image.png)
+![Header do Projeto](src/images/image.png)
 
 ## Descrição
 
